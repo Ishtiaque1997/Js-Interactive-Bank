@@ -6,9 +6,9 @@ document.getElementById('login-submit').addEventListener
  //get user password
  const passwordField=document.getElementById('user-password');
  const userPassword=passwordField.value;
- console.log(userPassword)
 
  if(userEmail=='sontan@baap.com'&&userPassword=='secret')
  //redirect to another page
  window.location.href='banking.html'
 })
+
